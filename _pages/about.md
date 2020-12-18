@@ -1,50 +1,131 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
+  - /about#publication
+  - /about
   - /about.html
 ---
+<style>
+.page__content p {
+    margin: 0 0 0em;
+}
+p{
+    /*margin: 0;*/
+    /*padding: -30;*/
+    /*line-height: 15px;*/
+}
+a{
+	color:#7c1313;
+}
+ul{
+    /*margin: 0;*/
+    /*padding: -30;*/
+    line-height: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+ul li, ol li {
+    margin-bottom: 0.em;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding-bottom: 0.2em;
+	margin: 1em 0 0.5em;
+	border-bottom: 2px solid #f2f3f3;
+}
+</style>
+{% include base_path %} 
+* <small> Ph.D. student in School of Information Management, Nanjing University.</small>
+* <small> My research interests include Knowledge Graph, Sentiment Analysis, Multimodal Machine Learning.</small>
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<h2 id="education"> Education</h2>  
+* <small>**Ph.D.** in Information Science<br>
+    Nanjing University, China (2020 - )<br>
+    Supervisor: [Hao Wang](https://im.nju.edu.cn/wh/list.htm)</small> 
+* <small>**M.S.** in Information Science  <br>
+    Nanjing University of Science and Technology, China (2017 - 2020)<br>
+    Supervisor: [Peng Wu](http://gsmis.njust.edu.cn/open/TutorInfo.aspx?dsbh=6Jv7Ef3hW147gpGM1PU-GQ==&yxsh=-xC7H!rHJCY=&zydm=vk3wWZMVRC0=)</small> 
+* <small>**B.M.** in Information Management and System<br>
+    China Jiliang University, China (2013 - 2017)</small> 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<h2 id="experience">Experience</h2> 
+* <small>Intern, Suning Finance (05/2018 - 10/2018)</small> 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<h2 id="publication">Publication</h2> 
+* <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究. 情报学报, 2020. (Accepted) </small> 
+* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 基于视频上下文和高维融合的突发事件中网民情感分析研究. 情报科学, 2020. (In check, 2020年全国情报学博士生论坛期刊拟录用论文) </small> 
+* <small>**范涛**, 吴鹏, 曹琪. 基于深度学习的多模态融合网民情感识别研究[J]. 信息资源管理学报, 2020, 10(1): 39-48.</small>
+* <small>**Fan T**, Wu P, Zhu P. The sentiment recognition of online users based on DNNs multimodal fusion[J]. Proceedings of the Association for Information Science and Technology, 2019, 56(1): 89-97.</small>
+* <small>**Fan T**, Wu P, Yao C, Qin Q. A facial feature extraction and classification model for loan-defaultdetection[J]. Proceedings of Wuhan International Conference on E-Business, 2019.</small>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<h2 id="service">Service</h2>  
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<small>**Conference Reviewer:**</small>   
+* <small>Association for Information Science & Technology (ASIS&T 2019, 2020)</small>  
 
-**Markdown generator**
+<h2 id="competition">Competition</h2> 
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+* <small>Third Prize of the 16th "Huawei Cup" China Graduate Mathematical Modeling Contest, 2019.11, Captain of the team</small>
+* <small>First Prize of Jiangsu Graduate Mathematical Contest in Modeling, 2019.8 </small>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<h2 id="award"> Award</h2> 
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* <small>Outstanding Student Leader of Jiangsu Province 2020.5</small>
+* <small>Excellent Graduate Student of Nanjing University of Science and Technology 2020.4 </small>
+* <small>Outstanding Student Leader of Nanjing University of Science and Technology 2019.9 </small>
+* <small>First-class Academic Scholarship of Nanjing University of Science and Technology 2017, 2019</small>
+* <small>Excellent Scholarship in Arts and Sports of China Jiliang University 2014 </small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
