@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="publication">Publication</h2> 
 * <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究. 数据分析与知识发现, 2021. (Accepted) </small> 
-* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 情报科学,2021,39(05):176-183.(2020年全国情报学博士生论坛期刊拟录用优秀论文) </small> 
+* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 基于视频上下文和高维融合的突发事件中网民情感分析研究,情报科学,2021,39(05):176-183.(2020年全国情报学博士生论坛期刊拟录用优秀论文) </small> 
 * <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究. 情报学报, 2021. (Accepted) </small> 
 * <small>**范涛**, 吴鹏, 曹琪. 基于深度学习的多模态融合网民情感识别研究[J]. 信息资源管理学报, 2020, 10(1): 39-48.</small>
 * <small>**Fan T**, Wu P, Zhu P. The sentiment recognition of online users based on DNNs multimodal fusion[J]. Proceedings of the Association for Information Science and Technology, 2019, 56(1): 89-97.</small>
