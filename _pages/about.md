@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 {% include base_path %} 
 * <small> Ph.D. student in School of Information Management, Nanjing University.</small>
-* <small> My research interests include Knowledge Graph, Sentiment Analysis, Multimodal Machine Learning.</small>
+* <small> My research interests mainly include the construction and application of Knowledge Graph in digital humantities, and some basic NLP tasks such as named entity recognition, attribute extraction, relation extraction, etc. Additionally, sentiment analysis and multimodal machine learning are also what I work on.</small>
 
 <h2 id="education"> Education</h2>  
 * <small>**Ph.D.** in Information Science<br>
@@ -54,8 +54,9 @@ h1, h2, h3, h4, h5, h6 {
 * <small>Intern, Suning Finance (05/2018 - 10/2018)</small> 
 
 <h2 id="publication">Publication</h2> 
-* <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究. 情报学报, 2020. (Accepted) </small> 
-* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 基于视频上下文和高维融合的突发事件中网民情感分析研究. 情报科学, 2020. (Accepted, 2020年全国情报学博士生论坛期刊拟录用论文) </small> 
+* <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究. 数据分析与知识发现, 2021. (Accepted) </small> 
+* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 情报科学,2021,39(05):176-183.(2020年全国情报学博士生论坛期刊拟录用优秀论文) </small> 
+* <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究. 情报学报, 2021. (Accepted) </small> 
 * <small>**范涛**, 吴鹏, 曹琪. 基于深度学习的多模态融合网民情感识别研究[J]. 信息资源管理学报, 2020, 10(1): 39-48.</small>
 * <small>**Fan T**, Wu P, Zhu P. The sentiment recognition of online users based on DNNs multimodal fusion[J]. Proceedings of the Association for Information Science and Technology, 2019, 56(1): 89-97.</small>
 * <small>**Fan T**, Wu P, Yao C, Qin Q. A facial feature extraction and classification model for loan-defaultdetection[J]. Proceedings of Wuhan International Conference on E-Business, 2019.</small>
