@@ -75,6 +75,8 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="award"> Award</h2> 
 
+* <small>Excellent Master's Thesis of Nanjing University of Science and Technology 2021.6</small>
+	* <small>Title: 基于深度学习的图文融合的网民情感识别研究 2021.6</small>
 * <small>Outstanding Student Leader of Jiangsu Province 2020.5</small>
 * <small>Excellent Graduate Student of Nanjing University of Science and Technology 2020.4 </small>
 * <small>Outstanding Student Leader of Nanjing University of Science and Technology 2019.9 </small>
