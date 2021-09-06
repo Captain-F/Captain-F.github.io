@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 * <small>Intern, Suning Finance (05/2018 - 10/2018)</small> 
 
 <h2 id="publication">Publication</h2> 
-* <small>**Fan T**, Wang H. Research of Chinese Intangible Cultural Heritage Knowledge Graph Construction and Attribute Value Extraction with Graph Attention Network. ___Information Processing & Management___, 2021. (Accepted, SCI/SSCI JCR Q1, CCF-B) </small> 
+* <small>**Fan T** and Wang H. Research of Chinese Intangible Cultural Heritage Knowledge Graph Construction and Attribute Value Extraction with Graph Attention Network. ___Information Processing & Management___, 2021. (Accepted, SCI/SSCI JCR Q1, CCF-B) </small> 
 * <small>**范涛**, 王昊, 陈玥彤. 基于深度迁移学习的地方志多模态命名实体识别研究. ___情报学报___, 2021. (Accepted) </small> 
 * <small>**范涛**, 王昊, 张宝隆. 基于远程监督和深度学习的非遗文本属性抽取研究. 情报理论与实践, 2021. (Accepted) </small> 
 * <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究. 数据分析与知识发现, 2021. (Accepted) </small> 
