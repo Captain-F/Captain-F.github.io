@@ -15,5 +15,8 @@ main:
   - title: "Competition"
     url: /#competition
     
+  - title: "Honor"
+    url: /#Honor
+
   - title: "Award"
     url: /#award
