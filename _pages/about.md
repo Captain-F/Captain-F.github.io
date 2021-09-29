@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 <h2 id="award"> Honor & Award</h2> 
 
 * <small>第三届“数据分析与知识发现”学术研讨会（DAKD2021）优秀论文, 2021.10</small>
-* <small>第11届全国博士生论坛优秀论文三等奖, 2021.9</small>
+* <small>第十一届全国博士生论坛优秀论文三等奖, 2021.9</small>
 * <small>Excellent Master (Academic Degree) Dissertation of Nanjing University of Science and Technology, 2021.6</small>
 	* <small>Title: 基于深度学习的图文融合的网民情感识别研究 (Fusing texts and images to recognize the sentiment of online users based on Deep
 Learning)</small>
