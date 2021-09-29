@@ -88,7 +88,7 @@ Learning)</small>
 * <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
 * <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
 
-<h2 id="award">Honor</h2> 
+<h2 id="Honor">Honor</h2> 
 
 * <small>Excellent Master (Academic Degree) Dissertation of Nanjing University of Science and Technology, 2021.6</small>
 	* <small>Title: 基于深度学习的图文融合的网民情感识别研究 (Fusing texts and images to recognize the sentiment of online users based on Deep
