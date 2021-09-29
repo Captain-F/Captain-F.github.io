@@ -98,9 +98,15 @@ Learning)</small>
 
 <h2 id="presentation">Presentation</h2> 
 
-* <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
-* <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
-
+* <small>基于多模态融合的非遗图片分类研究, Oct. 2021</small>
+	* <small>3rd Proceeding of Data Analysis and Knowledge Discovery , Shenzhen, China<small>
+* <small>基于视觉的网络舆情事件中网民情感分析研究, Sept. 2021</small>
+	* <small>11th National Doctoral Forum in Information Science, Changchun, China<small>
+* <small>基于视频上下文和高维融合的突发事件中网民情感分析研究, Oct. 2020</small>
+	* <small>10th National Doctoral Forum in Information Science, Guangzhou, China<small>
+* <small>The sentiment recognition of online users based on DNNs multimodal fusion, Oct. 2019</small>
+	* <small>82nd Annual Meeting of the Association for Information Science and Technology, Melbourne,
+Australia<small>
 
 
 
