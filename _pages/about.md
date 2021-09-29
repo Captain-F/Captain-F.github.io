@@ -96,8 +96,6 @@ Learning)</small>
 * <small>Outstanding Student Leader of Jiangsu Province, 2020.5</small>
 * <small>Excellent Graduate Student of Nanjing University of Science and Technology, 2020.4 </small>
 * <small>Outstanding Student Leader of Nanjing University of Science and Technology, 2019.9 </small>
-* <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
-* <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
 
 
 
