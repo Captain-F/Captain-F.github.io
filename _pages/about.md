@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 * <small>First Prize of Jiangsu Graduate Mathematical Contest in Modeling, 2019.8 </small>
 
 
-<h2 id="award"> Honor & Award</h2> 
+<h2 id="honor"> Honor</h2> 
 
 * <small>第三届“数据分析与知识发现”学术研讨会（DAKD2021）优秀论文, 2021.10</small>
 * <small>第十一届全国博士生论坛优秀论文三等奖, 2021.9</small>
@@ -88,12 +88,18 @@ Learning)</small>
 * <small>Outstanding Student Leader of Jiangsu Province, 2020.5</small>
 * <small>Excellent Graduate Student of Nanjing University of Science and Technology, 2020.4 </small>
 * <small>Outstanding Student Leader of Nanjing University of Science and Technology, 2019.9 </small>
+
+
+<h2 id="award">Award</h2> 
+
 * <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
 * <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
 
 
+<h2 id="presentation">Presentation</h2> 
 
-
+* <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
+* <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
 
 
 
