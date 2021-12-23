@@ -55,11 +55,12 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="publication">Publication</h2> 
 * <small>**Fan T** and Wang H. Research of Chinese Intangible Cultural Heritage Knowledge Graph Construction and Attribute Value Extraction with Graph Attention Network. ___Information Processing & Management___, 2022, 59(1). https://doi.org/10.1016/j.ipm.2021.102753.(SCI/SSCI, JCR Q1) </small> 
-* <small>**范涛**, 王昊, 陈玥彤. 基于深度迁移学习的地方志多模态命名实体识别研究. ___情报学报___, 2021. (in press) </small> 
-* <small>**范涛**, 王昊, 张宝隆. 基于远程监督和深度学习的非遗文本属性抽取研究. 情报理论与实践, 2021. (in press) </small> 
-* <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究. 数据分析与知识发现, 2021. (in press) </small> 
+* <small>**范涛**, 王昊, 林克柔, 刘渊晨, 王鑫芸. 基于视觉的网络舆情事件中网民情感分析研究[J]. 情报资料工作. 2021. (in press) </small> 
+* <small>**范涛**, 王昊, 陈玥彤. 基于深度迁移学习的地方志多模态命名实体识别研究[J]. ___情报学报___, 2021. (in press) </small> 
+* <small>**范涛**, 王昊,张宝隆. 基于远程监督和深度学习的非物质文化遗产文本属性抽取研究[J].情报理论与实践,2021,44(10):1-7+17.</small> 
+* <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究[J].数据分析与知识发现,2021,5(09):97-106. </small> 
 * <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究[J]. ___情报学报___, 2021, 40(6): 656-665. </small>
-* <small>**范涛**, 王昊, 郝琳娜, 王诗琴. 基于视频上下文和高维融合的突发事件中网民情感分析研究,情报科学,2021,39(05):176-183.(2020年全国情报学博士生论坛期刊拟录用优秀论文) </small> 
+* <small>**范涛**, 王昊, 郝琳娜, 王诗琴.基于视频上下文和高维融合的突发事件中网民情感分析研究,情报科学,2021,39(05):176-183. </small> 
 * <small>**范涛**, 吴鹏, 曹琪. 基于深度学习的多模态融合网民情感识别研究[J]. 信息资源管理学报, 2020, 10(1): 39-48.</small>
 * <small>**Fan T**, Wu P, Zhu P. The sentiment recognition of online users based on DNNs multimodal fusion[J]. Proceedings of the Association for Information Science and Technology, 2019, 56(1): 89-97.</small>
 * <small>**Fan T**, Wu P, Yao C, Qin Q. A facial feature extraction and classification model for loan-defaultdetection[J]. Proceedings of Wuhan International Conference on E-Business, 2019.</small>
@@ -79,6 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="honor"> Honor</h2> 
 
+
+* <small>Outstanding Graduate Student Cadre of Nanjing University, 2021.12</small>
 * <small>第三届“数据分析与知识发现”学术研讨会（DAKD2021）优秀论文, 2021.10</small>
 * <small>第十一届全国博士生论坛优秀论文三等奖, 2021.9</small>
 * <small>Excellent Master (Academic Degree) Dissertation of Nanjing University of Science and Technology, 2021.6</small>
@@ -92,6 +95,10 @@ Learning)</small>
 
 <h2 id="award">Award</h2> 
 
+* <small>Pillar excellence scholarship, Nanjing University, 2021.12</small>
+* <small>First prize for doctoral merit scholarship, Nanjing University, 2021.11</small>
+* <small>Doctoral Academic scholarship, Nanjing University, 2020.11;2021.11</small>
+* <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
 * <small>First-class Academic Scholarship of Nanjing University of Science and Technology, 2017; 2019</small>
 * <small>Excellent Scholarship in Arts and Sports of China Jiliang University, 2014 </small>
 
