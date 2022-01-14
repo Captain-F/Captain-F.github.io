@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 </style>
 {% include base_path %} 
-* <small> Ph.D. student in School of Information Management, Nanjing University.</small>
+* <small> Ph.D. candidate in School of Information Management, Nanjing University.</small>
 * <small> My research interests mainly include the construction and application of Knowledge Graph in digital humantities, and some basic NLP tasks such as named entity recognition, attribute extraction, relation extraction, etc. Additionally, sentiment analysis and multimodal machine learning are also what I work on.</small>
 
 <h2 id="education"> Education</h2>  
