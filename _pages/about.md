@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="publication">Publication</h2> 
 * <small>**Fan T** and Wang H. Research of Chinese Intangible Cultural Heritage Knowledge Graph Construction and Attribute Value Extraction with Graph Attention Network. ___Information Processing & Management___, 2022, 59(1). https://doi.org/10.1016/j.ipm.2021.102753. </small> 
+* <small>**Fan T** and Wang H. Intangible Cultural Heritage Knowledge Graph Construction and Application. Doctoral Colloquium, iConference, 2022.
 * <small>**范涛**,王昊, 李跃艳, 邓三鸿. 基于多模态融合的非遗图片分类研究[J]. 数据分析与知识发现. 2022. (in press) </small> 
 * <small>**范涛**, 王昊, 林克柔, 刘渊晨, 王鑫芸. 基于视觉的网络舆情事件中网民情感分析研究[J]. 情报资料工作. 2022. (in press) </small> 
 * <small>**范涛**, 王昊, 陈玥彤. 基于深度迁移学习的地方志多模态命名实体识别研究[J]. ___情报学报___, 2022. (in press) </small> 
@@ -64,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 * <small>**范涛**, 王昊, 郝琳娜, 王诗琴.基于视频上下文和高维融合的突发事件中网民情感分析研究[J]. 情报科学,2021,39(05):176-183. </small> 
 * <small>**范涛**, 吴鹏, 曹琪. 基于深度学习的多模态融合网民情感识别研究[J]. 信息资源管理学报, 2020, 10(1): 39-48.</small>
 * <small>**Fan T**, Wu P, Zhu P. The sentiment recognition of online users based on DNNs multimodal fusion[J]. Proceedings of the Association for Information Science and Technology, 2019, 56(1): 89-97.</small>
-* <small>**Fan T**, Wu P, Yao C, Qin Q. A facial feature extraction and classification model for loan-defaultdetection[J]. Proceedings of Wuhan International Conference on E-Business, 2019.</small>
 
 
 <h2 id="service">Service</h2>  
@@ -105,7 +105,8 @@ Learning)</small>
 
 
 <h2 id="presentation">Presentation</h2> 
-
+*  <small>Intangible Cultural Heritage Knowledge Graph Construction and Application, Feb. 2022</small>
+	* <small>Doctoral Colloquium, iConference, virtual<small>
 * <small>基于多模态融合的非遗图片分类研究, Oct. 2021</small>
 	* <small>3rd Proceeding of Data Analysis and Knowledge Discovery , Shenzhen, China<small>
 * <small>基于视觉的网络舆情事件中网民情感分析研究, Sept. 2021</small>
