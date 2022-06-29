@@ -55,10 +55,12 @@ h1, h2, h3, h4, h5, h6 {
 
 <h2 id="publication">Publication</h2> 
 * <small>**Fan T** and Wang H. Research of Chinese Intangible Cultural Heritage Knowledge Graph Construction and Attribute Value Extraction with Graph Attention Network. ___Information Processing & Management___, 2022, 59(1). https://doi.org/10.1016/j.ipm.2021.102753. </small> 
-* <small>**Fan T** and Wang H. Intangible Cultural Heritage Knowledge Graph Construction and Application. Doctoral Colloquium, iConference, 2022.
-* <small>**范涛**,王昊, 李跃艳, 邓三鸿. 基于多模态融合的非遗图片分类研究[J]. 数据分析与知识发现. 2022. (in press) </small> 
+* <small>**Fan T** and Wang H. Multimodal Sentiment Analysis of Intangible Cultural Heritage Songs with Strengthened Audio Features-Guided Attention[J]. ___Journal of Information Science___, 2022. (Accepted)  </small>
+* <small>**Fan T** and Wang H. Intangible Cultural Heritage Knowledge Graph Construction and Application. Doctoral Colloquium, iConference, 2022. </small> 
+* <small>**范涛**, 王昊, 陈玥彤.基于深度迁移学习的地方志多模态命名实体识别研究[J].___情报学报___,2022,41(04):412-423. </small> 
+* <small>**范涛**, 王昊, 李跃艳, 邓三鸿. 基于多模态融合的非遗图片分类研究[J]. 数据分析与知识发现, 2022, 6(2/3): 329-337. </small> 
 * <small>**范涛**, 王昊, 林克柔, 刘渊晨, 王鑫芸. 基于视觉的网络舆情事件中网民情感分析研究[J]. 情报资料工作. 2022. (in press) </small> 
-* <small>**范涛**, 王昊, 陈玥彤. 基于深度迁移学习的地方志多模态命名实体识别研究[J]. ___情报学报___, 2022. (in press) </small> 
+* <small>**范涛**, 王昊, 张卫, 李晓敏. 基于机器阅读理解的非遗命名实体识别研究. 数据分析与知识发现. 2022. (in press) </small> 
 * <small>**范涛**, 王昊, 张宝隆. 基于远程监督和深度学习的非物质文化遗产文本属性抽取研究[J].情报理论与实践,2021,44(10):1-7+17.</small> 
 * <small>**范涛**, 王昊, 吴鹏. 基于图卷积神经网络和依存句法分析的网民负面情感分析研究[J].数据分析与知识发现,2021,5(09):97-106. </small> 
 * <small>**范涛**, 吴鹏, 王昊, 凌晨. 基于多模态联合注意力机制的网民情感分析研究[J]. ___情报学报___,2021,40(6):656-665. </small>
@@ -70,8 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 <h2 id="service">Service</h2>  
 
 <small>**Reviewer:**</small>   
-* <small>Expert Systems with Applications (SCI Q1)</small>  
+* <small>Expert Systems with Applications</small>  
+* <small>Social Science Computer Review</small>  
 * <small>Proceedings of Association for Information Science & Technology (ASIS&T 2019, 2020, 2021)</small>  
+* <small>iConference</small> 
 
 <h2 id="competition">Competition</h2> 
 
