@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 <small>**Reviewer:**</small>   
 * <small>Expert Systems with Applications</small>  
 * <small>Social Science Computer Review</small>  
-* <small>Proceedings of Association for Information Science & Technology (ASIS&T 2019, 2020, 2021)</small>  
+* <small>Proceedings of Association for Information Science & Technology (ASIS&T)</small>  
 * <small>iConference</small> 
 
 <h2 id="competition">Competition</h2> 
