@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     Supervisor: [Prof. Hao Wang](https://im.nju.edu.cn/wh/list.htm)</small> 
 * <small>**Visiting Ph.D. student** in Digital Humanities<br>
     University of Bern, Bern, Switzerland (2022 - )<br>
-    Supervisor: [Prof. Tobias Hodel](https://im.nju.edu.cn/wh/list.htm](https://www.dh.unibe.ch/ueber_uns/personen/prof_dr_hodel_tobias/index_ger.html)</small> 
+    Supervisor: [Prof. Tobias Hodel](https://www.dh.unibe.ch/ueber_uns/personen/prof_dr_hodel_tobias/index_ger.html)</small> 
 * <small>**M.S.** in Information Science  <br>
     Nanjing University of Science and Technology, Nanjing, China (2017 - 2020)<br>
     Supervisor: [Prof. Peng Wu](http://gsmis.njust.edu.cn/open/TutorInfo.aspx?dsbh=6Jv7Ef3hW147gpGM1PU-GQ==&yxsh=-xC7H!rHJCY=&zydm=vk3wWZMVRC0=)</small> 
