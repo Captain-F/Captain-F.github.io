@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     Nanjing University, Nanjing, China (2020 - )<br>
     Supervisor: [Prof. Hao Wang](https://im.nju.edu.cn/wh/list.htm)</small> 
 * <small>**Visiting Ph.D. student** in Digital Humanities<br>
-    University of Bern, Bern, Switzerland (2020 - )<br>
+    University of Bern, Bern, Switzerland (2022 - )<br>
     Supervisor: [Prof. Tobias Hodel]([https://im.nju.edu.cn/wh/list.htm](https://www.dh.unibe.ch/ueber_uns/personen/prof_dr_hodel_tobias/index_ger.html))</small> 
 * <small>**M.S.** in Information Science  <br>
     Nanjing University of Science and Technology, China (2017 - 2020)<br>
