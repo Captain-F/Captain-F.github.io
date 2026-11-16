@@ -1,7 +1,13 @@
 /* Minimal Light, Yaoyao Liu, CC0-1.0, upstream dd114c3. */
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
+@font-face {
+  font-family: "Local Kai";
+  src: local("KaiTi"), local("Kaiti SC"), local("STKaiti");
+  unicode-range: U+2E80-2FFF, U+3000-303F, U+31C0-31EF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FE30-FE4F, U+FF00-FFEF, U+20000-323AF;
+}
+
+body { background-color: #fff; padding: 0px; font: 16.0px/1.5 "Crimson Pro", "Local Kai", "LXGW WenKai Screen R", serif; color: #595959; font-weight: 400; margin: 0; }
 
 .pub-row { display: flex; align-items: center; }
 
