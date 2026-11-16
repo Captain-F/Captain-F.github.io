@@ -1,23 +1,25 @@
+# main links links
 main:
-  - title: "简体中文"
-    url: /zh/
-    lang: zh-CN
-  - title: "CV"
-    url: /cv/
-  - title: "Publications"
-    url: /#publication
-  - title: "Projects"
-    url: /#projects
+  - title: "Education"
+    url: /#education
 
-zh:
-  - title: "English"
-    url: /
-    lang: en
-  - title: "教育背景"
-    url: /zh/#education
-  - title: "论文"
-    url: /zh/#publication
-  - title: "科研项目"
-    url: /zh/#projects
-  - title: "教学"
-    url: /zh/#teaching
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Publication"
+    url: /#publication  
+    
+  - title: "Service"
+    url: /#service
+        
+  - title: "Competition"
+    url: /#competition
+    
+  - title: "Honor"
+    url: /#honor
+
+  - title: "Award"
+    url: /#award
+
+  - title: "Presentation"
+    url: /#presentation

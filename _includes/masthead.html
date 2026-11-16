@@ -1,40 +1,23 @@
 {% include base_path %}
 
 <div class="masthead">
-  {% if page.lang == 'zh-CN' %}
-    {% assign links = site.data.navigation.zh %}
-    {% assign home = '/zh/' %}
-    {% assign title = '范涛' %}
-  {% else %}
-    {% assign links = site.data.navigation.main %}
-    {% assign home = '/' %}
-    {% assign title = site.title %}
-  {% endif %}
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ home }}">{{ title }}</a></li>
-          {% assign language_link = nil %}
-          {% for link in links %}
-            {% if page.academic_style and link.lang %}
-              {% assign language_link = link %}
-              {% continue %}
-            {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if link.lang %} lang="{{ link.lang }}" hreflang="{{ link.lang }}"{% endif %}>{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      {% if language_link %}
-        <a class="masthead__language" href="{{ language_link.url | relative_url }}" lang="{{ language_link.lang }}" hreflang="{{ language_link.lang }}">{{ language_link.title }}</a>
-      {% endif %}
     </div>
   </div>
 </div>

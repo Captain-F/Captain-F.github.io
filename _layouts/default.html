@@ -5,16 +5,13 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ page.lang | default: site.locale }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    {% if page.academic_style %}
-      <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
-    {% endif %}
   </head>
 
-  <body{% if page.academic_style %} class="academic-site"{% endif %}>
+  <body>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
