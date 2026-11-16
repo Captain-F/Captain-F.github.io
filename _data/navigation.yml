@@ -1,7 +1,10 @@
 main:
   - title: "Education"
+    title_zh: "教育背景"
     url: /#education
   - title: "Publications"
+    title_zh: "论文"
     url: /publications/
   - title: "CV"
+    title_zh: "个人简历"
     url: /cv/

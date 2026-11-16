@@ -1,29 +1,55 @@
+{% assign profile_name = site.title %}
+{% assign profile_bio = site.author.bio %}
+{% assign profile_employer = site.author.employer %}
+{% assign nav_label = 'Main navigation' %}
+{% assign home_label = 'Home' %}
+{% assign theme_label = 'Theme by' %}
+{% assign language_title = '简体中文' %}
+{% assign language_code = 'zh-CN' %}
+{% if page.lang == 'zh-CN' %}
+  {% assign prefix = '/zh' %}
+  {% assign profile_name = '范涛' %}
+  {% assign profile_bio = '公共管理学院讲师' %}
+  {% assign profile_employer = '南京财经大学' %}
+  {% assign nav_label = '主导航' %}
+  {% assign home_label = '首页' %}
+  {% assign theme_label = '主题' %}
+  {% assign language_title = 'English' %}
+  {% assign language_code = 'en' %}
+  {% assign alternate_url = page.url | remove_first: '/zh' %}
+{% else %}
+  {% assign prefix = '' %}
+  {% assign alternate_url = page.url | prepend: '/zh' %}
+{% endif %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.url != '/' %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <title>{% if page.url != '/' and page.url != '/zh/' %}{{ page.title | escape }} | {% endif %}{{ profile_name | escape }}</title>
   <meta name="description" content="{{ site.description | escape }}">
+  <link rel="alternate" hreflang="{{ language_code }}" href="{{ alternate_url | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/minimal-light.css' | relative_url }}">
 </head>
 <body>
   <div class="wrapper">
     <header class="profile">
-      <a href="{{ '/#education' | relative_url }}" aria-label="{{ site.title | escape }} home"><img class="profile-photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name | escape }}" width="140" height="140"></a>
-      <h1>{{ site.title | escape }}</h1>
-      <p>{{ site.author.bio | escape }}<br>{{ site.author.employer | escape }}</p>
+      <a href="{{ '/#education' | prepend: prefix | relative_url }}" aria-label="{{ home_label | escape }}"><img class="profile-photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ profile_name | escape }}" width="140" height="140"></a>
+      <h1>{{ profile_name | escape }}</h1>
+      <p>{{ profile_bio | escape }}<br>{{ profile_employer | escape }}</p>
       <p class="profile-contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
-      <nav class="profile-nav" aria-label="Main navigation">
+      <nav class="profile-nav" aria-label="{{ nav_label }}">
         {% for link in site.data.navigation.main %}
-          <a href="{{ link.url | relative_url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+          {% assign link_url = link.url | prepend: prefix %}
+          <a href="{{ link_url | relative_url }}"{% if link_url == page.url %} aria-current="page"{% endif %}>{% if page.lang == 'zh-CN' %}{{ link.title_zh }}{% else %}{{ link.title }}{% endif %}</a>
         {% endfor %}
+        <a href="{{ alternate_url | relative_url }}" lang="{{ language_code }}" hreflang="{{ language_code }}">{{ language_title }}</a>
       </nav>
     </header>
     <main id="main">
       <section aria-label="{{ page.title | escape }}">
-        {{ content }}
-        <p class="theme-credit">Theme by <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></p>
+        {% if page.lang == 'zh-CN' %}<div lang="en">{{ content }}</div>{% else %}{{ content }}{% endif %}
+        <p class="theme-credit">{{ theme_label }} <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></p>
       </section>
     </main>
   </div>

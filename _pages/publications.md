@@ -4,6 +4,4 @@ title: "Publications"
 permalink: /publications/
 ---
 
-## Publications {#publication}
-
-{% include minimal-light-publications.md %}
+{% include minimal-light-page-publications.md %}
