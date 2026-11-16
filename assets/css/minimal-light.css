@@ -196,24 +196,17 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
   object-fit: cover;
 }
 .profile p { margin-bottom: .9rem; }
-.profile-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: .55rem;
-}
-.profile-nav a { padding: .35em .2em; }
-.profile-nav [aria-current="page"] { text-decoration: underline; }
-.profile-nav a, .profile-contact a, main a { color: #176484; }
+.profile-contact a, main a { color: #176484; }
+main .language-switch { margin: 0 0 .65rem; text-align: right; }
 main section { font-size: 1.1rem; }
-main section h2:not(:first-child) { margin-top: 1.65em; }
+main section h2:not(:first-child):not(.language-switch + h2) { margin-top: 1.65em; }
 main section li { margin-bottom: .45em; }
 main .publication-list { font-size: 1rem; }
 .profile h1, main .publication-list strong { font-weight: 700; }
 .theme-credit { margin-top: 2rem; font-size: .88rem; }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 @media (prefers-color-scheme: dark) {
-  .profile-nav a, .profile-contact a, main a { color: #7bceef; }
+  .profile-contact a, main a { color: #7bceef; }
 }
 @media (max-width: 960px) {
   .profile { margin: 1.25rem auto; }

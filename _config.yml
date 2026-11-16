@@ -86,7 +86,7 @@ author:
   location         : "Nanjing City"
   employer         : "Nanjing University of Finance and Economics"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/scholar?q=author%3A%22Tao+Fan%22+%22intangible+cultural+heritage%22"
   email            : "fantao@smail.nju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
