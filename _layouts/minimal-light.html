@@ -25,7 +25,8 @@
   <title>{% if page.url != '/' and page.url != '/zh/' %}{{ page.title | escape }} | {% endif %}{{ profile_name | escape }}</title>
   <meta name="description" content="{{ site.description | escape }}">
   <link rel="alternate" hreflang="{{ language_code }}" href="{{ alternate_url | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/minimal-light.css' | relative_url }}?v=scholar">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/minimal-light.css' | relative_url }}?v=scholar-icon">
 </head>
 <body>
   <div class="wrapper">
@@ -33,7 +34,11 @@
       <img class="profile-photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ profile_name | escape }}" width="140" height="140">
       <h1>{{ profile_name | escape }}</h1>
       <p>{{ profile_bio | escape }}<br>{{ profile_employer | escape }}</p>
-      <p class="profile-contact"><a href="{{ site.author.googlescholar | escape }}">{{ scholar_label }}</a></p>
+      <p class="profile-contact">
+        <a class="scholar-icon" href="{{ site.author.googlescholar | escape }}" aria-label="{{ scholar_label | escape }}" title="{{ scholar_label | escape }}">
+          <span class="ai ai-google-scholar" aria-hidden="true"></span>
+        </a>
+      </p>
     </header>
     <main id="main">
       <section aria-label="{{ page.title | escape }}">
