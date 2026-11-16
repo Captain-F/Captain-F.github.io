@@ -1,7 +1,7 @@
 ### Journal articles
 
 1. Fan T, Wang H. Research of Chinese intangible cultural heritage knowledge graph construction and attribute value extraction with graph attention network[J]. Information Processing & Management, 2022, 59(1): 102753. (SCI/SSCI 1区; 国际信息科学领域权威期刊)
-2. Fan T, Wang H, Hodel T. α|D&#12297;+β|H&#12297;: Exploration of Quantum Deep Learning on Humanities Data from the Perspective of Digital Humanities[J]. Social Science Computer Review, 2026, OnlineFirst. [DOI: 10.1177/08944393261416783](https://doi.org/10.1177/08944393261416783). (SCI/SSCI 1区; 国际信息科学领域权威期刊)
+2. Fan T, Wang H, Hodel T. α&#124;D&#12297;+β&#124;H&#12297;: Exploration of Quantum Deep Learning on Humanities Data from the Perspective of Digital Humanities[J]. Social Science Computer Review, 2026, OnlineFirst. [DOI: 10.1177/08944393261416783](https://doi.org/10.1177/08944393261416783). (SCI/SSCI 1区; 国际信息科学领域权威期刊)
 3. Fan T, Wang H, Zhao Y, et al. When MLLMs Meet ICH: A Visual Retrieval-Augmented Generation-based Method for Intangible Cultural Heritage Image Recognition—Take Shadow Puppetry As a Case[J]. Information Processing & Management, 2026, 63(3):104481. (SCI/SSCI 1区; 国际信息科学领域权威期刊)
 4. Fan T, Wang H, Zhao Y, et al. Multimodal Cultural Heritage Image Recognition Based on Quantum and Classical Multimodal Fusion Network[J]. npj Heritage Science, 14(1), 160, 2026. (SCI/A&HCI 1区; 国际文化遗产领域权威期刊)
 5. Fan T, Wang H, Deng S. Intangible cultural heritage image classification with multimodal attention and hierarchical fusion[J]. Expert Systems With Applications, 2023, 231:120555. (SCI 1区; IF=7.5; 国际人工智能领域权威期刊)
