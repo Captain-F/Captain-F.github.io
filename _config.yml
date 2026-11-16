@@ -10,7 +10,7 @@ locale                   : "cn-China"
 title                    : "Tao Fan"
 title_separator          : "-"
 name                     : &name "Tao Fan"
-description              : &description "Ph.D candidate in Nanjing University"
+description              : &description "Lecturer at Nanjing University of Finance and Economics"
 url                      : https://captain-f.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Tao Fan"
   avatar           : "me.jpg"
-  bio              : "Ph.D. candidate in Nanjing University"
+  bio              : "Lecturer, School of Public Administration"
   location         : "Nanjing City"
-  employer         :
+  employer         : "Nanjing University of Finance and Economics"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    :
+  email            : "fantao@smail.nju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :

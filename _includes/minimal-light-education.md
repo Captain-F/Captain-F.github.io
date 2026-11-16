@@ -1,0 +1,4 @@
+- **Ph.D. in Information Science**, Nanjing University, September 2020–June 2024. Supervisor: Hao Wang.
+- **CSC-funded visiting doctoral researcher**, University of Bern, October 2022–October 2023. Supervisor: Tobias Hodel.
+- **M.S. in Information Science**, Nanjing University of Science and Technology, September 2017–April 2020. Supervisor: Peng Wu.
+- **Bachelor’s degree in Information Management and Information Systems**, China Jiliang University, September 2013–June 2017.

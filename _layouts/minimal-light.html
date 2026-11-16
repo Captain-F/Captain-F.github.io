@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url != '/' %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/minimal-light.css' | relative_url }}">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="profile">
+      <a href="{{ '/#education' | relative_url }}" aria-label="{{ site.title | escape }} home"><img class="profile-photo" src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name | escape }}" width="140" height="140"></a>
+      <h1>{{ site.title | escape }}</h1>
+      <p>{{ site.author.bio | escape }}<br>{{ site.author.employer | escape }}</p>
+      <p class="profile-contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br><a href="https://github.com/{{ site.author.github }}">GitHub</a></p>
+      <nav class="profile-nav" aria-label="Main navigation">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ link.url | relative_url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main id="main">
+      <section aria-label="{{ page.title | escape }}">
+        {{ content }}
+        <p class="theme-credit">Theme by <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a></p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
