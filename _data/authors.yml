@@ -16,3 +16,11 @@ Name2 Name2:
   avatar      : "bio-photo.jpg"
   twitter     : "name2"
   google_plus : "Name"
+
+tao-zh:
+  name: "范涛"
+  avatar: "me.jpg"
+  bio: "南京财经大学公共管理学院讲师"
+  location: "江苏南京"
+  email: "fantao@smail.nju.edu.cn"
+  github: "Captain-F"

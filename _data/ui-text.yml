@@ -268,3 +268,10 @@ it-IT:
 
 # Another locale
 # --------------
+
+zh-CN:
+  follow_label               : "关注"
+  feed_label                 : "订阅"
+  powered_by                 : "技术支持"
+  website_label              : "网站"
+  email_label                : "邮箱"
