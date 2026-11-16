@@ -124,6 +124,14 @@ Learning)</small>
 	* <small>82nd Annual Meeting of the Association for Information Science and Technology, Melbourne,
 Australia<small>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!window.location.hash) {
+      window.location.replace('#education');
+    }
+  });
+</script>
+
 
 
 
