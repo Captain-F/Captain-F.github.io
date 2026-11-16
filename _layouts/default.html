@@ -9,12 +9,17 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.layout == 'academic' %}
+      <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    {% endif %}
   </head>
 
-  <body>
+  <body{% if page.layout == "academic" %} class="academic-site"{% endif %}>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% if page.layout != 'academic' %}
+      {% include masthead.html %}
+    {% endif %}
 
     {{ content }}
 

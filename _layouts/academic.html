@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% assign profile = site.data.authors[page.author] | default: site.author %}
+{% if page.lang == 'zh-CN' %}
+  {% assign home = '/zh/' %}
+  {% assign links = site.data.navigation.zh %}
+  {% assign institution = '南京财经大学公共管理学院' %}
+  {% assign role = '讲师' %}
+  {% assign contact = '学术邮箱' %}
+  {% assign navigation = '网站导航' %}
+  {% assign skip = '跳到正文' %}
+{% else %}
+  {% assign home = '/' %}
+  {% assign links = site.data.navigation.main %}
+  {% assign institution = 'School of Public Administration, Nanjing University of Finance and Economics' %}
+  {% assign role = 'Lecturer' %}
+  {% assign contact = 'Academic email' %}
+  {% assign navigation = 'Site navigation' %}
+  {% assign skip = 'Skip to content' %}
+{% endif %}
+
+<a class="academic-skip" href="#main">{{ skip }}</a>
+<header class="academic-header">
+  <nav class="academic-nav academic-frame" aria-label="{{ navigation }}">
+    <a class="academic-brand" href="{{ home | relative_url }}">{{ profile.name }}</a>
+    <ul>
+      {% for link in links %}
+        <li><a href="{{ link.url | relative_url }}"{% if link.lang %} class="academic-language" lang="{{ link.lang }}" hreflang="{{ link.lang }}"{% elsif page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<main id="main" class="academic-frame academic-main" tabindex="-1">
+  <header class="academic-intro">
+    <div class="academic-intro-copy">
+      <p class="academic-role">{{ role }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="academic-institution">{{ institution }}</p>
+      <div class="academic-contact">
+        <a href="mailto:{{ profile.email }}">{{ contact }}</a>
+        <a href="https://github.com/{{ profile.github }}">GitHub</a>
+      </div>
+    </div>
+    <img class="academic-portrait" src="{{ profile.avatar | prepend: '/images/' | relative_url }}" alt="{{ profile.name }}" width="144" height="144">
+  </header>
+
+  <article class="page__content academic-content">
+    {{ content }}
+  </article>
+</main>

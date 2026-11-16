@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+layout: academic
 redirect_from:
   - /resume
 ---
@@ -46,5 +46,3 @@ I review for *Advanced Engineering Informatics*, *Engineering Applications of Ar
 - Programming: Python, Java, Cypher.
 - Libraries and frameworks: TensorFlow, Keras, PyTorch, scikit-learn, Matplotlib.
 - Languages: Chinese and English.
-
-[完整中文简历]({{ '/zh/' | relative_url }}){:lang="zh-CN" hreflang="zh-CN"}
