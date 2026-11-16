@@ -1,4 +1,5 @@
-- Ph.D. in Information Science, Nanjing University, 2020.09 - 2024.06
+- Ph.D. in Information Science, 2020.09 - 2024.06
+Nanjing University, 
 - Visiting Ph.D. student (Funded by CSC), University of Bern, 2022.10 – 2023.10
 - M.S. in Information Science, Nanjing University of Science and Technology, 2017.09 - 2020.04
 - Bachelor in Information Management and Information Systems, China Jiliang University, 2013.09 - 2017.06
