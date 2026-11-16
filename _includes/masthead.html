@@ -16,7 +16,12 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ home }}">{{ title }}</a></li>
+          {% assign language_link = nil %}
           {% for link in links %}
+            {% if page.academic_style and link.lang %}
+              {% assign language_link = link %}
+              {% continue %}
+            {% endif %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
@@ -27,6 +32,9 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      {% if language_link %}
+        <a class="masthead__language" href="{{ language_link.url | relative_url }}" lang="{{ language_link.lang }}" hreflang="{{ language_link.lang }}">{{ language_link.title }}</a>
+      {% endif %}
     </div>
   </div>
 </div>
