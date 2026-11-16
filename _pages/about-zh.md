@@ -3,7 +3,8 @@ title: "范涛"
 permalink: /zh/
 lang: zh-CN
 author: tao-zh
-layout: academic
+author_profile: true
+academic_style: true
 ---
 
 南京财经大学公共管理学院讲师。研究方向包括数字人文、非物质文化遗产知识图谱、自然语言处理、多模态机器学习和情感分析。
