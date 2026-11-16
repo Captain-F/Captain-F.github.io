@@ -4,9 +4,10 @@ My research focuses on multimodal machine learning and knowledge graphs for digi
 
 ## Experience {#experience}
 
-- **Lecturer**, School of Public Administration, Nanjing University of Finance and Economics, August 2024–present.
-- **Associate Researcher**, Digital Humanities, University of Bern, October 2023–present.
-- **Intern**, Suning Finance, Nanjing, May–October 2018.
+- Lecturer, 2024.08 – present<br>
+  School of Public Administration, Nanjing University of Finance and Economics
+- Associate Researcher, 2023.10 – present<br>
+  Digital Humanities Center, University of Bern
 
 ## Education {#education}
 
