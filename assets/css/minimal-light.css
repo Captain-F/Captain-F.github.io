@@ -1,5 +1,5 @@
 /* Minimal Light, Yaoyao Liu, CC0-1.0, upstream dd114c3. */
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 @font-face {
   font-family: "Local Kai";
@@ -209,6 +209,7 @@ main section { font-size: 1.1rem; }
 main section h2:not(:first-child) { margin-top: 1.65em; }
 main section li { margin-bottom: .45em; }
 main .publication-list { font-size: 1rem; }
+.profile h1, main .publication-list strong { font-weight: 700; }
 .theme-credit { margin-top: 2rem; font-size: .88rem; }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 @media (prefers-color-scheme: dark) {
