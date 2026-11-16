@@ -199,6 +199,10 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .profile-contact a, main a { color: #176484; }
 main .language-switch { margin: 0 0 .65rem; text-align: right; }
 main section { font-size: 1.1rem; }
+main section p:not(.language-switch, .theme-credit),
+main section li {
+  text-align: justify;
+}
 main section h2:not(:first-child):not(.language-switch + h2) { margin-top: 1.65em; }
 main section li { margin-bottom: .45em; }
 main .publication-list { font-size: 1rem; }
