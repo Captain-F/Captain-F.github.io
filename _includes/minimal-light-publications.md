@@ -25,6 +25,7 @@
 23. 张卫, 王昊, 陈玥彤, 范涛, 邓三鸿. 融合迁移学习与文本增强的中文成语隐喻知识识别与关联研究 [J]. 数据分析与知识发现, 2022, 6(Z1):167-183. (CSSCI)
 24. 任秋彤, 王昊, 熊欣, 范涛. 融合GCN 远距离约束的非遗戏剧术语抽取模型构建及其应用研究[J]. 数据分析与知识发现,2021,5(12):123-136. (CSSCI)
 25. 王昊, 邓三鸿, 朱立平, 王鑫芸, 范涛. 大数据环境下政务数据的情报价值及其利用研究——以海关报关商品归类风险规避为例[J]. 科技情报研究,2020,2(04):74-89.
+{:.publication-list}
 
 ### Conference papers
 
@@ -32,3 +33,4 @@
 2. Fan, T. & Wang, H. (2022). Intangible cultural heritage knowledge graph construction and application. Doctoral Colloquium, iConference.（信息资源管理学科顶级会议）
 3. Fan, T., Wu, P., & Zhu, P. (2019). The sentiment recognition of online users based on DNNs multimodal fusion. Proceedings of the Association for Information Science and Technology, 56(1), 89-97.（信息资源管理学科顶级会议）
 4. Zhou, S., Xuan, Y., Ao, Y., Wang, X., Fan, T., & Wang, H. (2025). MERIT: Multi-Agent Collaboration for Unsupervised Time Series Representation Learning. In Findings of the Association for Computational Linguistics: ACL 2025,24011-24028.（自然语言处理顶级会议）
+{:.publication-list}

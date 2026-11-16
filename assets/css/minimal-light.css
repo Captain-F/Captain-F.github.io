@@ -195,6 +195,7 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 main section { font-size: 1.1rem; }
 main section h2:not(:first-child) { margin-top: 1.65em; }
 main section li { margin-bottom: .45em; }
+main .publication-list { font-size: 1rem; }
 .theme-credit { margin-top: 2rem; font-size: .88rem; }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 @media (prefers-color-scheme: dark) {
