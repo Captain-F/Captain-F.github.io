@@ -101,9 +101,7 @@ My research focuses on multimodal machine learning and knowledge graphs for digi
 
 ## Research project {#projects}
 
-- Lecturer, 2024.08 – present<br>
-  School of Public Administration, Nanjing University of Finance and Economics
-- Associate Researcher, 2023.10 – present<br>
-  Digital Humanities Center, University of Bern
+- 国家自然科学基金青年基金项目（C类）, 2026 – 2028<br>
+- 南京市留学归国人员科技创新项目, 2025 – 2026<br>
 
 {% endif %}
