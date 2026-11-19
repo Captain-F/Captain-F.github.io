@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-{% include minimal-light-page-about.md %}
+{% include academic-content.md %}

@@ -6,4 +6,4 @@ redirect_from:
   - /resume
 ---
 
-{% include minimal-light-page-cv.md %}
+{% include academic-content.md %}

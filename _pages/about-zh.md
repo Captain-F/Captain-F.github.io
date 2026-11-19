@@ -5,4 +5,4 @@ permalink: /zh/
 lang: zh-CN
 ---
 
-{% include minimal-light-page-about.md %}
+{% include academic-content.md %}

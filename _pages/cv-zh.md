@@ -5,4 +5,4 @@ permalink: /zh/cv/
 lang: zh-CN
 ---
 
-{% include minimal-light-page-cv.md %}
+{% include academic-content.md %}

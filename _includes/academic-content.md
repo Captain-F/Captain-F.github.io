@@ -1,3 +1,21 @@
+{% comment %}
+Edit this file to update all academic pages.
+Education and publications are shared by the homepage, CV and publications page.
+The remaining homepage and CV sections appear below.
+{% endcomment %}
+
+{% capture education_content %}
+- Ph.D. in Information Science, 2020.09 – 2024.06<br>
+  School of Information Management, Nanjing University
+- Visiting Ph.D. student (Funded by CSC), 2022.10 – 2023.10<br>
+  Digital Humanities Center, University of Bern
+- M.S. in Information Science, 2017.09 – 2020.04<br>
+  School of Economics and Management, Nanjing University of Science and Technology
+- Bachelor in Information Management and Information Systems, 2013.09 – 2017.06<br>
+  School of Economics and Management, China Jiliang University
+{% endcapture %}
+
+{% capture publications_content %}
 ### Journal articles
 
 1. <strong>Fan T</strong>, Wang H. Research of Chinese intangible cultural heritage knowledge graph construction and attribute value extraction with graph attention network[J]. Information Processing & Management, 2022, 59(1): 102753. (SCI/SSCI 1区; 国际信息科学领域权威期刊)
@@ -45,3 +63,106 @@
 39. Zhou S, Song Y, Leng J, Wang X, <strong>Fan T</strong>, Wang H. Activation Caching for Retrieval-Augmented Generation[C]//Proceedings of the ACM Web Conference 2026. 2026: 8341-8344. (人工智能权威会议；CCF-A)
 40. Zhou S, Song Y, Leng J, Wang X, <strong>Fan T</strong>, Wang H. Cascaded Verification Framework: A Progressive Approach for Mitigating Hallucinations in Large Language Models[C]//Proceedings of the ACM Web Conference 2026. 2026: 8333-8336. (人工智能权威会议；CCF-A)
 {:.publication-list start="34"}
+{% endcapture %}
+
+{% if page.url contains '/publications/' %}
+
+## Publications {#publication}
+
+{{ publications_content }}
+
+{% elsif page.url contains '/cv/' %}
+
+## Curriculum Vitae
+
+## Education {#education}
+
+{{ education_content }}
+
+## Experience {#experience}
+
+- **Lecturer**, School of Public Administration, Nanjing University of Finance and Economics, August 2024–present.
+- **Associate Researcher**, Digital Humanities, University of Bern, October 2023–present.
+- **Intern**, Suning Finance, Nanjing, May–October 2018.
+
+## Research projects {#projects}
+
+- **Knowledge graphs of intangible cultural heritage genes and knowledge services for their evolution using multimodal representation learning**. NSFC Young Scientists Fund (Category C), 72504122, 2026–2028. Principal investigator.
+- **Semantic analysis and humanities computing for Chinese intangible cultural heritage texts using linked data**. NSFC General Program, 72074108, 2021–2024. Project member.
+- **China’s digital border development strategy and implementation**. National Social Science Fund Major Project, 21&ZD163, 2021–2025. Project member.
+- **Domain knowledge processing and organization in big data environments**. National Social Science Fund Key Project, 20ATQ006, 2021–2024. Project member.
+- **Semantic analysis and knowledge graphs for local gazetteers in humanities computing**. Nanjing University Fundamental Research Funds for the Central Universities, 010814370113, 2020–2023. Project member.
+- **Detecting negative sentiment among online users during public emergencies**. NSFC General Program, 71774084, 2018–2021. Project member.
+- **Facial expression recognition and its application in internet finance**. Jiangsu Graduate Research and Innovation Program, KYCX18-0494, 2018–2019. Principal investigator.
+
+{% if page.lang == 'zh-CN' %}
+[View all publications]({{ '/zh/publications/' | relative_url }})
+{% else %}
+[View all publications]({{ '/publications/' | relative_url }})
+{% endif %}
+
+## Teaching {#teaching}
+
+- Machine Learning and Data Mining, Autumn 2025.
+- A Brief History of Artificial Intelligence, Autumn 2025.
+- Multimodal Machine Learning & Multimodal Applications in Digital Humanities, Digital Humanities Lab lecture series, University of Bern, May 2023.
+- Knowledge Graph Construction Based on Unstructured Texts, CAS NLP lecture series, University of Bern, January 2023.
+
+## Academic service {#service}
+
+I review for *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Information Processing & Management*, *Expert Systems with Applications*, *Information Systems Frontiers*, *Social Science Computer Review*, *Journal of Information Science*, *Digital Scholarship in the Humanities*, *Social Sciences & Humanities Open*, *Multimedia Systems*, *The Journal of Supercomputing*, *Knowledge and Information Systems*, *Information Discovery and Delivery*, ASIS&T, iConference, and Digital Humanities.
+
+## Selected honors {#honor}
+
+- Outstanding Doctoral Dissertation, Nanjing University, 2025.
+- Outstanding Graduate of Jiangsu Province, 2024.
+- Best Paper Award, Chinese Digital Humanities Conference, 2024.
+- Best Paper Award, 4th Data Analysis and Knowledge Discovery Conference, 2023.
+- Merit Student of Jiangsu Province, 2023.
+
+## Selected scholarships {#award}
+
+- China Optics Valley Scholarship, 2023.
+- National Scholarship for Doctoral Students, 2022.
+- China Scholarship Council joint doctoral training scholarship, 2022.
+
+## Selected presentations {#presentation}
+
+- Multimodal knowledge graphs for intelligent question answering on intangible cultural heritage, Chinese Digital Humanities Conference, Shanghai, November 2024.
+- Quantum deep learning for humanities data, Annual Conference of Chinese Information Science, Tianjin, October 2024.
+- Multimodal information processing in digital humanities, RISM & Digital Humanities, Bern, October 2023.
+- Multimodal genre recognition of Chinese operas with hybrid fusion, Digital Humanities 2023, Graz, July 2023.
+- Chinese Intangible Cultural Heritage Multimodal Knowledge Graph Construction, DHCH 2023, Rome, June 2023.
+
+## Skills {#skills}
+
+- Programming: Python, Java, Cypher.
+- Libraries and frameworks: TensorFlow, Keras, PyTorch, scikit-learn, Matplotlib.
+- Languages: Chinese and English.
+
+{% else %}
+
+## Research interests {#research}
+
+My research focuses on multimodal machine learning and knowledge graphs for digital humanities, particularly the documentation and analysis of intangible cultural heritage. I also work on natural language processing and sentiment analysis.
+
+## Experience {#experience}
+
+- Lecturer, 2024.08 – present<br>
+  School of Public Administration, Nanjing University of Finance and Economics
+- Associate Researcher, 2023.10 – present<br>
+  Digital Humanities Center, University of Bern
+
+## Education {#education}
+
+{{ education_content }}
+
+## Publications {#publication}
+
+{{ publications_content }}
+
+## Research project {#projects}
+
+I lead an NSFC Young Scientists Fund project (72504122, 2026–2028) on building knowledge graphs for intangible cultural heritage using multimodal representation learning.
+
+{% endif %}

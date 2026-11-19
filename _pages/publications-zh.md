@@ -5,4 +5,4 @@ permalink: /zh/publications/
 lang: zh-CN
 ---
 
-{% include minimal-light-page-publications.md %}
+{% include academic-content.md %}
