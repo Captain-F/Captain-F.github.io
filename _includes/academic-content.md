@@ -1,9 +1,37 @@
 {% comment %}
-Edit this file to update all academic pages.
-Education and publications are shared by the homepage, CV and publications page.
-The remaining homepage and CV sections appear below.
+网站内容统一编辑文件
+
+一、修改正文
+直接编辑对应标题下的段落或列表，每条列表内容以“- ”开头。
+教育经历在 education_content 区域编辑，首页与简历页同步。
+论文在 publications_content 区域编辑，首页与论文页同步。
+
+二、增加章节
+在下方“首页章节”或“简历页章节”区域插入，例如
+
+## Teaching {#teaching}
+
+- 课程名称，授课时间
+- 另一门课程
+
+三、删除章节
+删除该章节的“## 标题”及其下正文，直到下一个“## 标题”之前。
+例如删除首页 Education 时，删除标题及紧随其后的 education_content 引用。
+
+四、调整顺序
+将一个“## 标题”连同下方正文一起移动到需要的位置。
+新增标题的锚点（例如 teaching）应在当前页面中唯一。
+
+五、论文
+每篇论文占一个编号条目，保持条目后面的 publication-list 样式标记。
+增删期刊论文后，将 Conference papers 下第一条的编号以及 start 数字同步调整。
+姓名可写为 <strong>Fan T</strong> 或 <strong>范涛</strong>。
+
+中英文页面共用本文件。修改并保存后提交推送，网站才会更新。
+带有 capture、endcapture、if、elsif、else、endif 的模板行控制页面生成。
 {% endcomment %}
 
+{% comment %}共享教育经历正文{% endcomment %}
 {% capture education_content %}
 - Ph.D. in Information Science, 2020.09 – 2024.06<br>
   School of Information Management, Nanjing University
@@ -15,6 +43,7 @@ The remaining homepage and CV sections appear below.
   School of Economics and Management, China Jiliang University
 {% endcapture %}
 
+{% comment %}共享论文正文{% endcomment %}
 {% capture publications_content %}
 ### Journal articles
 
@@ -65,6 +94,7 @@ The remaining homepage and CV sections appear below.
 {:.publication-list start="34"}
 {% endcapture %}
 
+{% comment %}独立论文页章节{% endcomment %}
 {% if page.url contains '/publications/' %}
 
 ## Publications {#publication}
@@ -72,6 +102,7 @@ The remaining homepage and CV sections appear below.
 {{ publications_content }}
 
 {% elsif page.url contains '/cv/' %}
+{% comment %}简历页章节：在本区域增删标题与正文{% endcomment %}
 
 ## Curriculum Vitae
 
@@ -141,6 +172,7 @@ I review for *Advanced Engineering Informatics*, *Engineering Applications of Ar
 - Languages: Chinese and English.
 
 {% else %}
+{% comment %}首页章节：在本区域增删标题与正文，章节顺序即网页显示顺序{% endcomment %}
 
 ## Research interests {#research}
 
