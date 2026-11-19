@@ -1,34 +1,10 @@
 {% comment %}
-网站内容统一编辑文件
-
-一、修改正文
-直接编辑对应标题下的段落或列表，每条列表内容以“- ”开头。
-教育经历在 education_content 区域编辑，首页与简历页同步。
-论文在 publications_content 区域编辑，首页与论文页同步。
-
-二、增加章节
-在下方“首页章节”或“简历页章节”区域插入，例如
-
-## Teaching {#teaching}
-
-- 课程名称，授课时间
-- 另一门课程
-
-三、删除章节
-删除该章节的“## 标题”及其下正文，直到下一个“## 标题”之前。
-例如删除首页 Education 时，删除标题及紧随其后的 education_content 引用。
-
-四、调整顺序
-将一个“## 标题”连同下方正文一起移动到需要的位置。
-新增标题的锚点（例如 teaching）应在当前页面中唯一。
-
-五、论文
-每篇论文占一个编号条目，保持条目后面的 publication-list 样式标记。
-增删期刊论文后，将 Conference papers 下第一条的编号以及 start 数字同步调整。
-姓名可写为 <strong>Fan T</strong> 或 <strong>范涛</strong>。
-
-中英文页面共用本文件。修改并保存后提交推送，网站才会更新。
-带有 capture、endcapture、if、elsif、else、endif 的模板行控制页面生成。
+统一编辑文件。下方“首页章节”的标题和正文对应首页显示内容。
+增加章节：添加“## 标题 {#唯一锚点}”，在下面写段落或列表。
+删除章节：删除该标题及其正文，直到下一个二级标题之前。
+调整顺序：将标题及正文一起移动。
+教育经历与论文在文件开头的共享区域编辑。
+论文页显示共享论文列表，简历页显示与首页相同的章节。
 {% endcomment %}
 
 {% comment %}共享教育经历正文{% endcomment %}
@@ -100,76 +76,6 @@
 ## Publications {#publication}
 
 {{ publications_content }}
-
-{% elsif page.url contains '/cv/' %}
-{% comment %}简历页章节：在本区域增删标题与正文{% endcomment %}
-
-## Curriculum Vitae
-
-## Education {#education}
-
-{{ education_content }}
-
-## Experience {#experience}
-
-- **Lecturer**, School of Public Administration, Nanjing University of Finance and Economics, August 2024–present.
-- **Associate Researcher**, Digital Humanities, University of Bern, October 2023–present.
-- **Intern**, Suning Finance, Nanjing, May–October 2018.
-
-## Research projects {#projects}
-
-- **Knowledge graphs of intangible cultural heritage genes and knowledge services for their evolution using multimodal representation learning**. NSFC Young Scientists Fund (Category C), 72504122, 2026–2028. Principal investigator.
-- **Semantic analysis and humanities computing for Chinese intangible cultural heritage texts using linked data**. NSFC General Program, 72074108, 2021–2024. Project member.
-- **China’s digital border development strategy and implementation**. National Social Science Fund Major Project, 21&ZD163, 2021–2025. Project member.
-- **Domain knowledge processing and organization in big data environments**. National Social Science Fund Key Project, 20ATQ006, 2021–2024. Project member.
-- **Semantic analysis and knowledge graphs for local gazetteers in humanities computing**. Nanjing University Fundamental Research Funds for the Central Universities, 010814370113, 2020–2023. Project member.
-- **Detecting negative sentiment among online users during public emergencies**. NSFC General Program, 71774084, 2018–2021. Project member.
-- **Facial expression recognition and its application in internet finance**. Jiangsu Graduate Research and Innovation Program, KYCX18-0494, 2018–2019. Principal investigator.
-
-{% if page.lang == 'zh-CN' %}
-[View all publications]({{ '/zh/publications/' | relative_url }})
-{% else %}
-[View all publications]({{ '/publications/' | relative_url }})
-{% endif %}
-
-## Teaching {#teaching}
-
-- Machine Learning and Data Mining, Autumn 2025.
-- A Brief History of Artificial Intelligence, Autumn 2025.
-- Multimodal Machine Learning & Multimodal Applications in Digital Humanities, Digital Humanities Lab lecture series, University of Bern, May 2023.
-- Knowledge Graph Construction Based on Unstructured Texts, CAS NLP lecture series, University of Bern, January 2023.
-
-## Academic service {#service}
-
-I review for *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Information Processing & Management*, *Expert Systems with Applications*, *Information Systems Frontiers*, *Social Science Computer Review*, *Journal of Information Science*, *Digital Scholarship in the Humanities*, *Social Sciences & Humanities Open*, *Multimedia Systems*, *The Journal of Supercomputing*, *Knowledge and Information Systems*, *Information Discovery and Delivery*, ASIS&T, iConference, and Digital Humanities.
-
-## Selected honors {#honor}
-
-- Outstanding Doctoral Dissertation, Nanjing University, 2025.
-- Outstanding Graduate of Jiangsu Province, 2024.
-- Best Paper Award, Chinese Digital Humanities Conference, 2024.
-- Best Paper Award, 4th Data Analysis and Knowledge Discovery Conference, 2023.
-- Merit Student of Jiangsu Province, 2023.
-
-## Selected scholarships {#award}
-
-- China Optics Valley Scholarship, 2023.
-- National Scholarship for Doctoral Students, 2022.
-- China Scholarship Council joint doctoral training scholarship, 2022.
-
-## Selected presentations {#presentation}
-
-- Multimodal knowledge graphs for intelligent question answering on intangible cultural heritage, Chinese Digital Humanities Conference, Shanghai, November 2024.
-- Quantum deep learning for humanities data, Annual Conference of Chinese Information Science, Tianjin, October 2024.
-- Multimodal information processing in digital humanities, RISM & Digital Humanities, Bern, October 2023.
-- Multimodal genre recognition of Chinese operas with hybrid fusion, Digital Humanities 2023, Graz, July 2023.
-- Chinese Intangible Cultural Heritage Multimodal Knowledge Graph Construction, DHCH 2023, Rome, June 2023.
-
-## Skills {#skills}
-
-- Programming: Python, Java, Cypher.
-- Libraries and frameworks: TensorFlow, Keras, PyTorch, scikit-learn, Matplotlib.
-- Languages: Chinese and English.
 
 {% else %}
 {% comment %}首页章节：在本区域增删标题与正文，章节顺序即网页显示顺序{% endcomment %}
